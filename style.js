@@ -32,7 +32,7 @@ $(document).ready(function () {
     });
 
 
-    $(document).on('click', '#heart', function (e) {
+    $(document).on('click', '.heart', function (e) {
         var tekst = $('<div id="message-success"><p>Добавлено в избранное!</p></div>'),
             linc = $('#jGrowl');
         linc.html(tekst).fadeIn();
