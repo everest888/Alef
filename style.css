@@ -151,7 +151,7 @@ hr {
     padding-left: 29px;
 }
 
-#heart {
+.heart {
     position: absolute;
     top: 22px;
     right: 42px;
